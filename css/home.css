@@ -82,7 +82,7 @@ nav a:hover {
   border-radius: 24px;
   background: #3498db;
   cursor: pointer;
-  transition: 0.1s;
+  transition: 0.185s;
 }
 
 .container button:hover {
