@@ -65,7 +65,9 @@ nav a:hover {
 .python p {
   font-size: 30px;
 }
-
+.text-slider-items {
+        display: none;
+    }
 .html-css {
   padding-left: 700px;
 }
