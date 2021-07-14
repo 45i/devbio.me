@@ -1,3 +1,4 @@
+<style>
 * {
   padding: 0;
   margin: 0;
@@ -97,7 +98,11 @@ nav a:hover {
   margin-right: 40px;
   cursor: pointer;
 }
-
+  
+ .text-slider-items {
+    display: none;
+}
+  
 .check {
   display: none;
 }
@@ -113,3 +118,4 @@ nav a:hover {
     background-image: url("phone-image.png");
   }
 }
+</style>
