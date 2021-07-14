@@ -37,15 +37,15 @@ nav li {
 }
 
 nav a {
-  color: white;
+  color: black;
   font-size: 17px;
   padding: 7px 13px;
   border-radius: 3px;
 }
 
 nav a:hover {
-  background: white;
-  color: black;
+  background: black;
+  color: white;
   transition: .5s;
 }
 
