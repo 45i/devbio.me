@@ -10,8 +10,34 @@
 <body >
     <header>
         <nav>
-          <label class="logo"><font color="black">PythaSnek</font></label>
-            <ul>
+          <label class="logo"><font color="black"><span class="text-slider-items">About Me</font></span></label>
+            <script src=
+        "./typed.js-master/lib/typed.min.js">
+    </script>
+      
+    <!-- Add jquery cdn -->
+    <script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+  
+    <!-- Add this script for successful 
+        implementation of typed.js  -->
+    <script>
+        if ($(".text-slider").length == 1) {
+              
+            var typed_strings = 
+                $(".text-slider-items").text();
+  
+            var typed = new Typed(".text-slider", {
+                strings: typed_strings.split(", "),
+                typeSpeed: 50,
+                loop: true,
+                backDelay: 900,
+                backSpeed: 30,
+            });
+        }
+    </script>  
+          <ul>
                 <li><a href="index.html" class="home">Home</a></li>
                 <li><a href="technologies.html" class="technologies">Technologies</a></li>
                 <li><a href="projects.html">Projects</a></li>
