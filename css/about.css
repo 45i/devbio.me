@@ -100,6 +100,13 @@ nav a:hover {
 .reddit p {
   font-size: 30px;
 }
+.text-slider-items {
+    display: none;
+}
+  
+.check {
+  display: none;
+}
 
 @media (min-width: 2500px) and (max-height: 1000px) {
   body {
