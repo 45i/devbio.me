@@ -114,5 +114,16 @@ nav a:hover {
   display: block;
   color: red;
 }
+@media (min-width: 2500px) and (max-height: 1000px) {
+  body {
+    background-image: url("ultrawidephoto.png");
+  }
+}
+
+@media (max-height: 926px) {
+  body {
+    background-image: url("phone-image.png");
+  }
+}
 
 </style>
