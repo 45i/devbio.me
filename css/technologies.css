@@ -93,14 +93,4 @@ nav a:hover {
 }
 
 
-@media (min-width: 2500px) and (max-height: 1000px) {
-  body {
-    background-image: url("ultrawidephoto.png");
-  }
-}
 
-@media (max-width: 1400px) {
-  body {
-    background-image: url("phone\ image.jpg");
-  }
-}
