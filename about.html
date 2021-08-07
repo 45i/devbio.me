@@ -1,55 +1,74 @@
-  
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/technologies.css">
-    <title>Who is PythaSnek?</title>
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+    <title>PythaSnek's World</title>
 </head>
-<body >
+<body>
+    <font color="white">
     <header>
         <nav>
-          <label class="logo"><a href="index.html"><font color="black">About Me</font></a></label>
-             
-          <ul>
-                <li><a href="index.html" class="home">Home</a></li>
-                <li><a href="technologies.html" class="technologies">Technologies</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                
+            <label class="logo">PythaSnek</label>
+            <ul>
+                <li><font color="grey">Home</font></li>
+                <li><a href="technologies.html">Technologies</a></li>
+                <li><a href="projects.html" >Projects</a></li>
+                <li><a href="contact.html" class="contact">Contact</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="Cool Stuff.html">Cool Stuff</a></li>
             </ul>
         </nav>
     </header>
     <main>
-      <div class="container">
-            <br>
-            <div class="python">
-              <font color="black">  
+        <div class="container">
+            <h1>PythaSnek</h1>
+            <p><span class="text-slider-items">
+                Student By <font color="black"> Day</font>, <font color="black">Coder By </font> Night, 
                 
-                <h1>Who am I?</h1>
-              
-                <p>Python huh?</p>
-                <p>What a language isn't it? So fluent and smooth. So powerful yet so easy to understand. No wonder I fell in love with Python in a matter of a few months!</p>
-                <h2> NotSoFun Fact! </h2>
-                <p> Python is the only lady I've fallen in love with 😅 </p>
-              </font> 
-            </div>
-            <div class="html-css">
-              <font color="black">    
-              <h1>C# and JAVA</h1>
-                <p>Although these aren't my favourite languages, I have made quite a lot of projects using them.</p>
-              </font>
-            </div>
-            <div class="git-github">
-              <font color="black">    
-              <h1>QBASIC :( </h1>
-                <p>Well, every programmer begins somewhere. I began with QBASIC and it was undoubtedly a scripted hell!</p>
-            </font>  
-                </div>
-        </div>
-    </main>
+            </span>
   
-
+            <strong class="text-slider"></strong></p>
+            <button onclick="window.location.href='technologies.html';">PythaSnek ❤s Using These!</button>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+            </div>
+        
+        
+        <script src=
+        "./typed.js-master/lib/typed.min.js">
+    </script>
+      
+    <!-- Add jquery cdn -->
+    <script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+  
+    <!-- Add this script for successful 
+        implementation of typed.js  -->
+    <script>
+        if ($(".text-slider").length == 1) {
+              
+            var typed_strings = 
+                $(".text-slider-items").text();
+  
+            var typed = new Typed(".text-slider", {
+                strings: typed_strings.split(", "),
+                typeSpeed: 50,
+                loop: true,
+                backDelay: 900,
+                backSpeed: 30,
+            });
+        }
+    </script>
+    </main>
+    </font>
 </body>
 </html>
